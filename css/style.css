@@ -1,0 +1,227 @@
+/* Global Layout Styles -------------------------------->  */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    line-height: 1.5rem;
+}
+/* Link Styles --------------------------------------->  */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Section Styles ----------------------------------->  */
+nav {
+    width: 92%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(245, 244, 244);
+    padding-bottom: 2rem;
+}
+
+h1 {
+    padding: 1.8rem;     
+    margin: 0;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    margin: 6px auto;
+    padding: 0.8rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    width: 90%;
+}
+
+header img {
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.heading {
+    margin: 3rem;
+}
+
+p, h1, h2, h3 {
+    letter-spacing: 0.5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+div p {
+    margin-bottom: 2rem;
+}
+
+#skills, #contact, footer {
+    background: rgb(245, 244, 244);
+    padding-top: 2rem;
+}
+
+#skills h2, #contact h2 {
+    padding-bottom: 1.5rem;
+}
+
+#skills ul {
+    text-align: center;
+    width: 100%
+} 
+
+#skills ul li {
+    width: 80%;
+    font-size: 100%;
+}
+
+li.node {
+    margin-bottom: 0;
+}
+
+#contact {
+    padding-bottom: 2rem;
+}
+
+#contact p {
+    margin: 0 auto;
+}
+
+p#phone {
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+p#email {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    border-top: solid 1px lightgrey;
+    padding-top: 0;
+}
+
+footer h3, footer a {
+    display: inline-block;
+}
+
+footer h3 {
+    float: left;
+}
+
+footer a {
+    float: right;
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+}
+
+.footer-nav {
+    display: none;
+}
+
+/* Media Queries ---------------------------------->  */
+
+@media screen and (min-width: 768px) {
+
+    header {
+        height: 45vh;
+    }
+    
+    nav ul li, #skills ul li {
+        display: inline-block;
+        width: 15%;
+        background: none;
+        margin: 0 auto;
+    }
+
+    .profile-pic {
+        float: right;
+        width: 40%;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .main-header p {
+        margin-top: 2rem;
+    }
+
+    div#portfolio div {
+        display: inline-block;
+        width: 49%;
+    }
+
+    .p {
+        width: 70%;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .footer-nav {
+        display: inline;
+    }
+
+    .footer-nav li {
+        width: 15%;
+        float: right;
+    }
+
+    .footer-nav a {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    header div {
+        display: inline-block;
+        width: 100vw;
+    }
+
+    .name {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+        width: 60%;
+        margin-top: 1.5rem;
+    }
+
+    .main-nav ul {
+        width: 80;
+    }
+
+    img {
+        max-width: 500px;
+    }
+
+    div#portfolio div {
+        width: 30%;
+    }
+}
+
+
+
